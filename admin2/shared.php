@@ -30,9 +30,17 @@ function register(){
 	mysqli_query($db,$sql);
 }
 
+function custregister(){
+	global $db;
+	print_r($_REQUEST);
+	$sql = ("INSERT INTO `customer` ( `firstname`,`lastname`,`username`,`email`, `contact`, `password`, `avatar`) VALUES ( '".$_REQUEST['firstname']."','".$_REQUEST['lastname']."','".$_REQUEST['username']."', '".$_REQUEST['email']."', ".$_REQUEST['contact'].", '".md5($_REQUEST['password'])."',  '".$_REQUEST['avatar']."');");
+	echo $sql;
+	mysqli_query($db,$sql);
+}
+
 function getDetails($param,$table){
 	global $db;
-	$sql = ("SELECT * from ".$table." where name='".mysqli_real_escape_string($db, $param)."' LIMIT 1");
+	$sql = ("SELECT * from ".$table." where username='".mysqli_real_escape_string($db, $param)."' LIMIT 1");
 	$result = mysqli_query($db, $sql);
 	if(mysqli_error($db) && DEV_MODE == 1){
 		echo mysqli_errno($db);
