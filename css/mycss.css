@@ -1,0 +1,62 @@
+.btn-primary
+{
+	background-color: #3a203e;
+}
+
+.btn-primary:hover
+{
+	background-color: white;
+	color:#3a203e;
+}
+
+.nav-menu .navbar 
+{
+	background-color: #3a203e;
+}
+
+.login .form-box 
+{
+	max-width:100%;
+	margin-left:25%;
+}
+
+.form-box
+{
+	padding: 10px;
+}
+
+.pad
+{
+	padding-right:5px;
+}
+
+.modal-body
+{
+	background-color: #f1f2f8;
+    overflow: auto;
+}
+
+.modal-backdrop 
+{
+	z-index: 9 !important;
+}
+
+.modal-content
+{
+	padding-bottom: 0px;
+    border-radius: 10px;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+.form-group i
+{
+	color:#558b2f !important;
+}
+
+@media only screen and (max-width:767px){
+	.pad
+	{
+		padding-right:0px;
+	}
+}
