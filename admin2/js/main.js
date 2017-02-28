@@ -20,11 +20,12 @@ $(document).ready(function(){
 			});
 		}
 	});
-	$('#registerdata').on('click',function(){
+	/*$('#registerdata').on('click',function(){
 		console.log('firstname');
 		var hallname = $("[name='hallname']").val();
 		var username = $("[name='username']").val();
 		var password=$("[name='password']").val();
+		var confirmpass=$("[name='confirmpass']").val();
 		var email=$("[name='email']").val();
 		var contact=$("[name='contact']").val();
 		var state=$("[name='state']").val();
@@ -33,13 +34,14 @@ $(document).ready(function(){
 		var pincode=$("[name='pincode']").val();
 		var landmark=$("[name='landmark']").val();
 		var description=$("[name='description']").val();
-		var photo=$("[name='photo']").val();
+		// var photo=$("[name='photo']").val();
 		var capacity=$("[name='capacity']").val();
 		var price=$("[name='price']").val();
 		var decoration=$("[name='decoration']").val();
+		console.log(hallname,username,password,email,contact,state,city,area,pincode,landmark,description,capacity,price,decoration);
 		if(hallname  != '' && email!='' && username!='' && password!=''  && state!='' && city!='' && area!='' && pincode!='' && capacity!='' && decoration!=''){
 
-			$.ajax({
+			/*$.ajax({
 				url:'index.php',
 				type: 'post',
 				
@@ -56,7 +58,7 @@ $(document).ready(function(){
 		}
 
 
-	});
+	});*/
 
 });
 
