@@ -1,4 +1,8 @@
 
+.hover-overlay:hover{
+	    background: rgba(58, 32, 62, 0.86) !important;
+	    opacity: 0.5;
+}
 #footer .social-icon-list a
 {
 	color: #3a203e;
@@ -88,6 +92,11 @@ footer
 {
 	background: #fff !important;
     color: #3a203e !important;
+}
+
+.search-slide
+{
+	margin-top: 2%;
 }
 
 .search-bar
