@@ -24,10 +24,10 @@
     <div class="navbar-collapse collapse" id="main-navbar">
        <ul class="nav navbar-nav">
   <li class="dropdown  megamenu">
-    <a class="dropdown-toggle">Pages</a>
+    <a href="index.php" class="dropdown-toggle">Home</a>
 </li>
 <li class="dropdown submenu">
-  <a href="#" class="dropdown-toggle">Features</a>
+  <a href="#" class="dropdown-toggle">About Us</a>
 </li>
 <li class="dropdown submenu">
   <a href="#" class="dropdown-toggle">Blog</a>
