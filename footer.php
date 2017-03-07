@@ -1,4 +1,4 @@
-<footer id="footer">
+<footer id="footer" style="padding-top: 30px;">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-7 col-md-3">
@@ -8,22 +8,23 @@
 			<div class="col-sm-5 col-md-2">
 				<h3>Quick Link</h3>
 				<ul>
-					<li>Holiday Package</li>
-					<li>Summer Adventure</li>
-					<li>Bus and Trasnportation</li>
-					<li>Ticket and Hotel Booking</li>
-					<li>Trek and Hikings</li>
+					<li><a href="">Home</a></li>
+					<li><a href="">Search</a></li>
+					<li><a href="">All Halls</a></li>
+					<li><a href="">About us</a></li>
+					<li><a href="">Contact</a></li>
 				</ul>
 			</div>
 			<div class="col-sm-7 col-md-4">
-				<h3>Newsletter Signup</h3>
-				<p>Subscribe to our weekly newsletter to get news and update</p>
-				<br>
-				<div class="input-group">
+				<h3>Feedback</h3>
+				<div class="input-group centerarea">
 					<input type="text" class="form-control" placeholder="Your Email">
-					<div class="input-group-btn">
-						<button class="btn btn-primary">Subscribe</button>
 					</div>
+					<div class="input-group centerarea">
+					<textarea class="form-control feedbacktextarea" placeholder="Your Feedback"></textarea><br>
+					<!-- <div class="input-group-btn"> -->
+						<button class="btn btn-primary footer-form-btn" style="background-color: #946e91 !important">Subscribe</button>
+					<!-- </div> -->
 				</div>
 			</div>
 			<div class="col-sm-5 col-md-2">
