@@ -4,10 +4,11 @@
     <link rel="stylesheet" href="assets/css/min/jqueryui.min.css" media="all" >
     <link rel="stylesheet" href="vendor/animate-css/animate.css" media="all" >
     <link rel="stylesheet" href="assets/font/iconfont/iconstyle.css" media="all" >
-    <link rel="stylesheet" href="assets/css/min/main.min.css" media="all" >
+    <link rel="stylesheet" href="assets/css/main.css" media="all" >
     <link rel="stylesheet" href="css/font-awesome.css" media="all" >
-    <link rel="stylesheet" href="css/mycss.css">
     <link rel="stylesheet" href="css/hover-min.css">
+    <link rel="stylesheet" href="css/mycss.css">
+
 
 
 
