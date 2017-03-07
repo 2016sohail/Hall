@@ -38,7 +38,7 @@
   <?php include_once('header.php'); ?>
 <!-- header ends here -->
 		
-    <p style="text-align:center;margin-top:2%;margin-bottom:0px"><button id="slide-button" class="btn btn-search" style="background-color:#3a203e;border-radius:17px;outline:none">Search Your Hall Here! <i class="fa fa-search"></i></button></p>
+    <!-- <p style="text-align:center;margin-top:2%;margin-bottom:0px"><button id="slide-button" class="btn btn-search" style="background-color:white;color:black;font-weight:100;cursor:text;border:1px solid #c1c1c1;outline:none">Search Your Hall Here! <i class="fa fa-search"></i></button></p> -->
 		<div id="slide-search" style="display:none">
 			<div class="search-bar container my-border" style="margin-top:0px;margin-bottom:0px;">
 			  <div class="col-sm-2 text-wrap">
@@ -74,81 +74,95 @@
 
 		<div class="row" style="padding: 3%">
 			<div class="gallery" id="trip-gallery-1">
-				<div class="col-sm-3">
-					<a href="assets/img/trip_detail/1.jpg" class="gallery-item" data-lightbox="trip-detail-gallery" data-title="Lorem ipsum dolor.">
-						<img src="assets/img/trip_detail/thumb_1.jpg" alt="..." class="img-responsive" >
+				<div class="col-sm-3 scaled">
+					<a href="#" class="gallery-item" data-lightbox="trip-detail-gallery" data-title="Lorem ipsum dolor.">
+						<img src="assets/img/trip_detail/thumb_1.jpg" alt="..." class="img-responsive scaled-img" >
 						<div class="hover-overlay">
 							<h2>HALL 1</h2>
-							<!-- <span class="icon-search"></span> -->
+							<p class="view-p">VIEW DETAILS</p>
 						</div>
 					</a>
 				</div>
 
-				<div class="col-sm-3">
-					<a href="assets/img/trip_detail/1.jpg" class="gallery-item" data-lightbox="trip-detail-gallery" data-title="Lorem ipsum dolor.">
-						<img src="assets/img/trip_detail/thumb_2.jpg" alt="..." class="img-responsive" >
+				<div class="col-sm-3 scaled">
+					<a href="#" class="gallery-item" data-lightbox="trip-detail-gallery" data-title="Lorem ipsum dolor.">
+						<img src="assets/img/trip_detail/thumb_2.jpg" alt="..." class="img-responsive scaled-img" >
 						<div class="hover-overlay">
 							<h2>HALL 2</h2>
+							<p class="view-p">VIEW DETAILS</p>
+
 							<!-- <span class="icon-search"></span> -->
 						</div>
 					</a>
 				</div>
 
-				<div class="col-sm-3">
-					<a href="assets/img/trip_detail/1.jpg" class="gallery-item" data-lightbox="trip-detail-gallery" data-title="Lorem ipsum dolor.">
-						<img src="assets/img/trip_detail/thumb_3.jpg" alt="..." class="img-responsive" >
+				<div class="col-sm-3 scaled">
+					<a href="#" class="gallery-item" data-lightbox="trip-detail-gallery" data-title="Lorem ipsum dolor.">
+						<img src="assets/img/trip_detail/thumb_3.jpg" alt="..." class="img-responsive scaled-img" >
 						<div class="hover-overlay">
 							<h2>HALL 3</h2>
+							<p class="view-p">VIEW DETAILS</p>
+
 							<!-- <span class="icon-search"></span> -->
 						</div>
 					</a>
 				</div>
 
-				<div class="col-sm-3">
-					<a href="assets/img/trip_detail/1.jpg" class="gallery-item" data-lightbox="trip-detail-gallery" data-title="Lorem ipsum dolor.">
-						<img src="assets/img/trip_detail/thumb_4.jpg" alt="..." class="img-responsive" >
+				<div class="col-sm-3 scaled">
+					<a href="#" class="gallery-item" data-lightbox="trip-detail-gallery" data-title="Lorem ipsum dolor.">
+						<img src="assets/img/trip_detail/thumb_4.jpg" alt="..." class="img-responsive scaled-img" >
 						<div class="hover-overlay">
 							<h2>HALL 4</h2>
+							<p class="view-p">VIEW DETAILS</p>
+
 							<!-- <span class="icon-search"></span> -->
 						</div>
 					</a>
 				</div>
 
-				<div class="col-sm-3">
-					<a href="assets/img/trip_detail/1.jpg" class="gallery-item" data-lightbox="trip-detail-gallery" data-title="Lorem ipsum dolor.">
-						<img src="assets/img/trip_detail/thumb_5.jpg" alt="..." class="img-responsive" >
+				<div class="col-sm-3 scaled">
+					<a href="#" class="gallery-item" data-lightbox="trip-detail-gallery" data-title="Lorem ipsum dolor.">
+						<img src="assets/img/trip_detail/thumb_5.jpg" alt="..." class="img-responsive scaled-img" >
 						<div class="hover-overlay">
 							<h2>HALL 5</h2>
+							<p class="view-p">VIEW DETAILS</p>
+
 							<!-- <span class="icon-search"></span> -->
 						</div>
 					</a>
 				</div>
 
-				<div class="col-sm-3">
-					<a href="assets/img/trip_detail/1.jpg" class="gallery-item" data-lightbox="trip-detail-gallery" data-title="Lorem ipsum dolor.">
-						<img src="assets/img/trip_detail/thumb_6.jpg" alt="..." class="img-responsive" >
+				<div class="col-sm-3 scaled">
+					<a href="#" class="gallery-item" data-lightbox="trip-detail-gallery" data-title="Lorem ipsum dolor.">
+						<img src="assets/img/trip_detail/thumb_6.jpg" alt="..." class="img-responsive scaled-img" >
 						<div class="hover-overlay">
 							<h2>HALL 6</h2>
+							<p class="view-p">VIEW DETAILS</p>
+
 							<!-- <span class="icon-search"></span> -->
 						</div>
 					</a>
 				</div>
 
-				<div class="col-sm-3">
-					<a href="assets/img/trip_detail/1.jpg" class="gallery-item" data-lightbox="trip-detail-gallery" data-title="Lorem ipsum dolor.">
-						<img src="assets/img/trip_detail/thumb_1.jpg" alt="..." class="img-responsive" >
+				<div class="col-sm-3 scaled">
+					<a href="#" class="gallery-item" data-lightbox="trip-detail-gallery" data-title="Lorem ipsum dolor.">
+						<img src="assets/img/trip_detail/thumb_1.jpg" alt="..." class="img-responsive scaled-img" >
 						<div class="hover-overlay">
 							<h2>HALL 7</h2>
+							<p class="view-p">VIEW DETAILS</p>
+
 							<!-- <span class="icon-search"></span> -->
 						</div>
 					</a>
 				</div>
 
-				<div class="col-sm-3">
-					<a href="assets/img/trip_detail/1.jpg" class="gallery-item" data-lightbox="trip-detail-gallery" data-title="Lorem ipsum dolor.">
-						<img src="assets/img/trip_detail/thumb_2.jpg" alt="..." class="img-responsive" >
+				<div class="col-sm-3 scaled">
+					<a href="#" class="gallery-item" data-lightbox="trip-detail-gallery" data-title="Lorem ipsum dolor.">
+						<img src="assets/img/trip_detail/thumb_2.jpg" alt="..." class="img-responsive scaled-img" >
 						<div class="hover-overlay">
-							<h2>HALL 8</h2>
+							<h2 class="view-h2">HALL 8</h2>
+							<p class="view-p">VIEW DETAILS</p>
+
 							<!-- <span class="icon-search"></span> -->
 						</div>
 					</a>
@@ -163,20 +177,7 @@
 
   <?php include_once('jslinks.php'); ?>
 
-  <script>
-  		$(document).ready(function(){
-  			$("#main-navbar ul li a").click(function(){
-  				$("#main-navbar ul li a").removeClass("my-active");
-  					$(this).addClass("my-active");
-  			});
-  		});
 
-  		$(document).ready(function(){
-  			$("#slide-button").click(function(){
-  				$("#slide-search").slideToggle();
-  			});
-  		}); 		
-  </script>
 </body>
 
 <!-- Mirrored from moldthemes.com/mold_discover/home_default.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 14 Feb 2017 16:40:20 GMT -->

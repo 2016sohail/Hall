@@ -79,12 +79,7 @@
   </div>
 </div>
 
-<section class="white">
- <div class="main-title">
-   <h2>Exprore World</h2>
-   <p>Plan Your holiday with Mold discover</p>
- </div>
-</section>
+
 
 <section class="showcase">
 	<div class="main-title">
@@ -362,17 +357,20 @@
 <!-- footer ends here -->
 
   <?php include_once('jslinks.php'); ?>
-
   <script>
-  		$(document).ready(function(){
+  $(document).ready(function(){
   			$("#main-navbar ul li a").click(function(){
   				$("#main-navbar ul li a").removeClass("my-active");
   					$(this).addClass("my-active");
   			});
   		});
+
+  		$(document).ready(function(){
+  			$(".slide-icon").click(function(){
+  				$("#slide-search").slideToggle();
+  			});
+  		}); 
   </script>
-
-
 </body>
 
 <!-- Mirrored from moldthemes.com/mold_discover/home_default.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 14 Feb 2017 16:40:20 GMT -->

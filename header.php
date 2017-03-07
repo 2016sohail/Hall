@@ -23,17 +23,17 @@
 
     <div class="navbar-collapse collapse" id="main-navbar">
        <ul class="nav navbar-nav">
-  <li class="dropdown  megamenu">
-    <a class="dropdown-toggle">Pages</a>
+  <li>
+    <a href="#">Pages</a>
 </li>
-<li class="dropdown submenu">
-  <a href="#" class="dropdown-toggle">Features</a>
+<li>
+  <a href="#">Features</a>
 </li>
-<li class="dropdown submenu">
-  <a href="#" class="dropdown-toggle">Blog</a>
+<li>
+  <a href="#">Blog</a>
 </li>
-<li class="dropdown megamenu">
-  <a href="#" class="dropdown-toggle">Elements</a>
+<li>
+  <a href="#">Elements</a>
 </li>
 
 <li>
@@ -43,6 +43,9 @@
 <li>
   <a data-toggle="modal" data-target="#myModalLogin"><span class="icon-user"></span>Login</a>
 </li>
+
+<li class="last-menu-item">
+  <a href="#" title="Search your hall"><i id="" class="fa fa-search slide-icon" style="color:white !important;"></i></a>
 
 </ul> 
 
@@ -236,4 +239,8 @@
 
   <!-- Login modal pop-up ends -->
 </nav>
+
+<p style="text-align:center" class="p-hide-search">
+  <a href="#" title="Search your hall"><i id="" class="fa fa-search slide-icon" style="color:#3a203e"></i></a>
+</p>
 </header>

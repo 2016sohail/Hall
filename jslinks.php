@@ -10,3 +10,18 @@
 <script type="text/javascript" src="assets/js/min/responsivetable.min.js"></script>
 <script type="text/javascript" src="assets/js/min/countnumbers.min.js"></script>
 <script type="text/javascript" src="assets/js/min/main.min.js"></script>
+
+  <script>
+  		$(document).ready(function(){
+  			$("#main-navbar ul li a").click(function(){
+  				$("#main-navbar ul li a").removeClass("my-active");
+  					$(this).addClass("my-active");
+  			});
+  		});
+
+  		$(document).ready(function(){
+  			$(".slide-icon").click(function(){
+  				$("#slide-search").slideToggle();
+  			});
+  		}); 		
+  </script>
