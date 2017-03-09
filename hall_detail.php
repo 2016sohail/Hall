@@ -13,7 +13,9 @@
 
     <script type="text/javascript" src="vendor/js-cookie/src/js.cookie.js"></script>
     <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+    
     <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
+
 
     <script type="text/javascript" src="js/main.js"></script>
     <style id="moldcustomize">
@@ -25,8 +27,9 @@
             m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
         })(window,document,'script','../../www.google-analytics.com/analytics.js','ga');
 
-        ga('create', 'UA-83435216-1', 'auto');
+        ga('create', 'xxxxxxxxxx', 'auto');
         ga('send', 'pageview');
+        
 
     </script>
 </head>
@@ -81,69 +84,65 @@
 								<div class="box-title">Ansar Hall</div>
 								<ul class="trip-overview">
 									<li>
-										<span class="icon-road-sign"></span>
+										<i class="fa fa-align-justify"></i>
 										<div class="detail">
 											<div class="title">Description:</div>
 											<div class="desc">21 Day Trip 14 days point-to-point trekdiv nights</div>
 										</div>
 									</li>
 									<li>
-										<span class="icon-dollar"></span>
+										<i class="fa fa-rupee"></i>
 										<div class="detail">
 											<div class="title">Price</div>
 											<div class="desc">USD 422</div>
 										</div>
 									</li>
 									<li>
-										<span class="icon-camp-fire"></span>
+										<i class="fa fa-group"></i>
 										<div class="detail">
 											<div class="title">Capacity</div>
 											<div class="desc">500-1000</div>
 										</div>
 									</li>
 									<li>
-										<span class="icon-barcode"></span>
+										<i class="fa fa-object-ungroup"></i>
 										<div class="detail">
 											<div class="title">Decoration</div>
 											<div class="desc">Yes</div>
 										</div>
 									</li>
 									<li>
-										<span class="icon-calendar"></span>
+										<i class="fa fa-tachometer"></i>
 										<div class="detail">
-											<div class="title">Trek Days</div>
-											<div class="desc">18</div>
+											<div class="title">Rating</div>
+											<div class="desc"><i class="fa fa-star" style="font-size: 20px; width: 20px;"></i><i class="fa fa-star-half-o" style="font-size: 20px;width: 20px;"></i><i class="fa fa-star-o" style="font-size: 20px;width: 20px;"></i><i class="fa fa-star-o" style="font-size: 20px;width: 20px;"></i><i class="fa fa-star-o" style="font-size: 20px;width: 20px;"></i>1.5</div>
 										</div>
 									</li>
 									<li>
-										<span class="icon-door-tag "></span>
+										<i class="fa fa-address-card"></i>
 										<div class="detail">
-											<div class="title">Accomodation</div>
-											<div class="desc">6 Night hotel, 3 night Tea House</div>
+											<div class="title">Address</div>
+											<div class="desc">6 Night hotel, 3 night Tea House Madanpura Mumbai - 400008</div>
 										</div>
 									</li>
 									<li>
-										<span class="icon-home"></span>
+										<span class="fa fa-group"></span>
 										<div class="detail">
-											<div class="title">Trek Accomodation</div>
-											<div class="desc">6 Night hotel, 3 night Tea House</div>
+											<button class="btn btn-lg btn-primary hvr-bounce-to-right calendar-slide">Check Availabilty / Book Now</button>
+										<div id="my-calendar" class="mycalendar" style="display: none;"></div>
 										</div>
 									</li>
 									<li>
-										<span class="icon-bus"></span>
-										<div class="detail">
-											<div class="title">Transportation</div>
-											<div class="desc">Bus, Jeep</div>
-										</div>
 									</li>
 								</ul>
 							</div>
 						</div>
+
 					</div>
 				</div>
 
-
 			</div>
+			
 		</div>	
 		
 	</div>
