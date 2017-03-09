@@ -37,139 +37,207 @@
 <!-- header starts here -->
   <?php include_once('header.php'); ?>
 <!-- header ends here -->
+
+<!-- slider-filter starts here -->
+  <?php include_once('slider-filter.php'); ?>
+<!-- slider-filter ends here -->	
 		
-    <!-- <p style="text-align:center;margin-top:2%;margin-bottom:0px"><button id="slide-button" class="btn btn-search" style="background-color:white;color:black;font-weight:100;cursor:text;border:1px solid #c1c1c1;outline:none">Search Your Hall Here! <i class="fa fa-search"></i></button></p> -->
-		<div id="slide-search" style="display:none">
-			<div class="search-bar container my-border" style="margin-top:0px;margin-bottom:0px;">
-			  <div class="col-sm-2 text-wrap">
-			    <h2 class="main-head">Find</h2>
-			    <h5 class="sub-head">Tours</h5>
-			  </div>
-			  <div class="col-sm-8 row">
-			    <div class="col-sm-3 form-group">
-			      <label>Keyword</label>
-			      <input type="text" class="form-control" placeholder="Location, Type ..">
-			    </div>
-			    <div class="col-sm-3 form-group">
-			      <label>From</label>
-			      <input type="text" class="form-control datepicker" readonly>
-			    </div>
-			    <div class="col-sm-3 form-group">
-			      <label>To</label>
-			      <input type="text" class="form-control datepicker" readonly>
-			    </div>
-			    <div class="col-sm-3 form-group">
-			      <label>Price</label>
-			      <select class="form-control selectpicker">
-			        <option value="">1000 - 2000</option>
-			      </select>
-			    </div>
-			  </div>
-			  <div class="col-sm-2">
-			    <button class="btn btn-search btn-primary hvr-sweep-to-right">Search</button>
-			  </div>
+			<div class="row" style="padding: 3%">
+				<div class="col-md-3 col-sm-6 col-xs-12"> 
+					<div class="item-grid">
+						<div class="item-img all-halls-item-img">	
+							<img class="img img-responsive img-thumbnail" src="myimg/4.jpg" />
+						</div>
+
+						<div class="col-md-12 col-sm-12 col-xs-12 detailed"> 
+							<div class="col-md-12 col-sm-12 col-xs-12">
+								<p class="col-md-6 col-sm-6 col-xs-6" style="margin-bottom:0px"><strong>ANSAR HALL</strong> </p> 
+								<p class="col-md-6 col-sm-6 col-xs-6" style="text-align:right;margin-bottom:0px"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-empty"></i></p>
+								<p class="col-md-12 col-sm-12 col-xs-12"><span style="font-size:11px;color:#9b9b9b">Madanpura,Mumbai</span></p>
+							</div>
+
+							<div class="col-md-12 col-sm-12 col-xs-12">
+								<p class="col-md-6 col-sm-6 col-xs-6"><i class="fa fa-user" style="color:#9b9b9b;"></i> 700-1000 </p>
+								<p class="col-md-6 col-sm-6 col-xs-6" style="text-align:right"><i class="fa fa-rupee" style="color:#9b9b9b;"></i> 25,000/- </p>
+							</div>
+
+							<hr style="width:125px;margin:20px auto;">
+							<p style="text-align:center;margin-bottom:0px"><a href="hall_detail.php" class="btn btn-primary hvr-bounce-to-right">More Details</a></p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6 col-xs-12"> 
+					<div class="item-grid">
+						<div class="item-img all-halls-item-img">	
+							<img class="img img-responsive img-thumbnail" src="myimg/5.jpg" />
+						</div>
+
+						<div class="col-md-12 col-sm-12 col-xs-12 detailed"> 
+							<div class="col-md-12 col-sm-12 col-xs-12">
+								<p class="col-md-6 col-sm-6 col-xs-6" style="margin-bottom:0px"><strong>Mehfil Hall</strong> </p> 
+								<p class="col-md-6 col-sm-6 col-xs-6" style="text-align:right;margin-bottom:0px"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-empty"></i></p>
+								<p class="col-md-12 col-sm-12 col-xs-12"><span style="font-size:11px;color:#9b9b9b">Morland Road,Mumbai</span></p>
+							</div>
+
+							<div class="col-md-12 col-sm-12 col-xs-12">
+								<p class="col-md-6 col-sm-6 col-xs-6"><i class="fa fa-user" style="color:#9b9b9b;"></i> 2000-3000 </p>
+								<p class="col-md-6 col-sm-6 col-xs-6" style="text-align:right"><i class="fa fa-rupee" style="color:#9b9b9b;"></i> 25,000/- </p>
+							</div>
+
+							<hr style="width:125px;margin:20px auto;">
+							<p style="text-align:center;margin-bottom:0px"><a href="hall_detail.php" class="btn btn-primary hvr-bounce-to-right">More Details</a></p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6 col-xs-12"> 
+					<div class="item-grid">
+						<div class="item-img all-halls-item-img">	
+							<img class="img img-responsive img-thumbnail" src="myimg/6.jpg" />
+						</div>
+
+						<div class="col-md-12 col-sm-12 col-xs-12 detailed"> 
+							<div class="col-md-12 col-sm-12 col-xs-12">
+								<p class="col-md-6 col-sm-6 col-xs-6" style="margin-bottom:0px"><strong>Tennis Hall</strong> </p> 
+								<p class="col-md-6 col-sm-6 col-xs-6" style="text-align:right;margin-bottom:0px"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-empty"></i></p>
+								<p class="col-md-12 col-sm-12 col-xs-12"><span style="font-size:11px;color:#9b9b9b">Mumbai Central,Mumbai</span></p>
+							</div>
+
+							<div class="col-md-12 col-sm-12 col-xs-12">
+								<p class="col-md-6 col-sm-6 col-xs-6"><i class="fa fa-user" style="color:#9b9b9b;"></i> 1500-2500 </p>
+								<p class="col-md-6 col-sm-6 col-xs-6" style="text-align:right"><i class="fa fa-rupee" style="color:#9b9b9b;"></i> 25,000/- </p>
+							</div>
+
+							<hr style="width:125px;margin:20px auto;">
+							<p style="text-align:center;margin-bottom:0px"><a href="hall_detail.php" class="btn btn-primary hvr-bounce-to-right">More Details</a></p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6 col-xs-12"> 
+					<div class="item-grid">
+						<div class="item-img all-halls-item-img">	
+							<img class="img img-responsive img-thumbnail" src="myimg/7.jpg" />
+						</div>
+
+						<div class="col-md-12 col-sm-12 col-xs-12 detailed"> 
+							<div class="col-md-12 col-sm-12 col-xs-12">
+								<p class="col-md-6 col-sm-6 col-xs-6" style="margin-bottom:0px"><strong>Christ Church</strong></p> 
+								<p class="col-md-6 col-sm-6 col-xs-6" style="text-align:right;margin-bottom:0px"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-empty"></i></p>
+								<p class="col-md-12 col-sm-12 col-xs-12"><span style="font-size:11px;color:#9b9b9b">Byculla,Mumbai</span></p>
+							</div>
+
+							<div class="col-md-12 col-sm-12 col-xs-12">
+								<p class="col-md-6 col-sm-6 col-xs-6"><i class="fa fa-user" style="color:#9b9b9b;"></i> 1800-2500 </p>
+								<p class="col-md-6 col-sm-6 col-xs-6" style="text-align:right"><i class="fa fa-rupee" style="color:#9b9b9b;"></i> 25,000/- </p>
+							</div>
+
+							<hr style="width:125px;margin:20px auto;">
+							<p style="text-align:center;margin-bottom:0px"><a href="hall_detail.php" class="btn btn-primary hvr-bounce-to-right">More Details</a></p>
+						</div>
+					</div>
+				</div>
 			</div>
-		</div>
 
-
-		<div class="row" style="padding: 3%">
-			<div class="gallery" id="trip-gallery-1">
-				<div class="col-sm-3 scaled">
-					<a href="#" class="gallery-item" data-lightbox="trip-detail-gallery" data-title="Lorem ipsum dolor.">
-						<img src="assets/img/trip_detail/thumb_1.jpg" alt="..." class="img-responsive scaled-img" >
-						<div class="hover-overlay">
-							<h2>HALL 1</h2>
-							<p class="view-p">VIEW DETAILS</p>
+			<div class="row" style="padding: 3%">
+				<div class="col-md-3 col-sm-6 col-xs-12"> 
+					<div class="item-grid">
+						<div class="item-img all-halls-item-img">	
+							<img class="img img-responsive img-thumbnail" src="myimg/6.jpg" />
 						</div>
-					</a>
+
+						<div class="col-md-12 col-sm-12 col-xs-12 detailed"> 
+							<div class="col-md-12 col-sm-12 col-xs-12">
+								<p class="col-md-6 col-sm-6 col-xs-6" style="margin-bottom:0px"><strong>ANSAR HALL</strong> </p> 
+								<p class="col-md-6 col-sm-6 col-xs-6" style="text-align:right;margin-bottom:0px"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-empty"></i></p>
+								<p class="col-md-12 col-sm-12 col-xs-12"><span style="font-size:11px;color:#9b9b9b">Madanpura,Mumbai</span></p>
+							</div>
+
+							<div class="col-md-12 col-sm-12 col-xs-12">
+								<p class="col-md-6 col-sm-6 col-xs-6"><i class="fa fa-user" style="color:#9b9b9b;"></i> 700-1000 </p>
+								<p class="col-md-6 col-sm-6 col-xs-6" style="text-align:right"><i class="fa fa-rupee" style="color:#9b9b9b;"></i> 25,000/- </p>
+							</div>
+
+							<hr style="width:125px;margin:20px auto;">
+							<p style="text-align:center;margin-bottom:0px"><a href="hall_detail.php" class="btn btn-primary hvr-bounce-to-right">More Details</a></p>
+						</div>
+					</div>
 				</div>
 
-				<div class="col-sm-3 scaled">
-					<a href="#" class="gallery-item" data-lightbox="trip-detail-gallery" data-title="Lorem ipsum dolor.">
-						<img src="assets/img/trip_detail/thumb_2.jpg" alt="..." class="img-responsive scaled-img" >
-						<div class="hover-overlay">
-							<h2>HALL 2</h2>
-							<p class="view-p">VIEW DETAILS</p>
-
-							<!-- <span class="icon-search"></span> -->
+				<div class="col-md-3 col-sm-6 col-xs-12"> 
+					<div class="item-grid">
+						<div class="item-img all-halls-item-img">	
+							<img class="img img-responsive img-thumbnail" src="myimg/7.jpg" />
 						</div>
-					</a>
+
+						<div class="col-md-12 col-sm-12 col-xs-12 detailed"> 
+							<div class="col-md-12 col-sm-12 col-xs-12">
+								<p class="col-md-6 col-sm-6 col-xs-6" style="margin-bottom:0px"><strong>Mehfil Hall</strong> </p> 
+								<p class="col-md-6 col-sm-6 col-xs-6" style="text-align:right;margin-bottom:0px"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-empty"></i></p>
+								<p class="col-md-12 col-sm-12 col-xs-12"><span style="font-size:11px;color:#9b9b9b">Morland Road,Mumbai</span></p>
+							</div>
+
+							<div class="col-md-12 col-sm-12 col-xs-12">
+								<p class="col-md-6 col-sm-6 col-xs-6"><i class="fa fa-user" style="color:#9b9b9b;"></i> 2000-3000 </p>
+								<p class="col-md-6 col-sm-6 col-xs-6" style="text-align:right"><i class="fa fa-rupee" style="color:#9b9b9b;"></i> 25,000/- </p>
+							</div>
+
+							<hr style="width:125px;margin:20px auto;">
+							<p style="text-align:center;margin-bottom:0px"><a href="hall_detail.php" class="btn btn-primary hvr-bounce-to-right">More Details</a></p>
+						</div>
+					</div>
 				</div>
 
-				<div class="col-sm-3 scaled">
-					<a href="#" class="gallery-item" data-lightbox="trip-detail-gallery" data-title="Lorem ipsum dolor.">
-						<img src="assets/img/trip_detail/thumb_3.jpg" alt="..." class="img-responsive scaled-img" >
-						<div class="hover-overlay">
-							<h2>HALL 3</h2>
-							<p class="view-p">VIEW DETAILS</p>
-
-							<!-- <span class="icon-search"></span> -->
+				<div class="col-md-3 col-sm-6 col-xs-12"> 
+					<div class="item-grid">
+						<div class="item-img all-halls-item-img">	
+							<img class="img img-responsive img-thumbnail" src="myimg/5.jpg" />
 						</div>
-					</a>
+
+						<div class="col-md-12 col-sm-12 col-xs-12 detailed"> 
+							<div class="col-md-12 col-sm-12 col-xs-12">
+								<p class="col-md-6 col-sm-6 col-xs-6" style="margin-bottom:0px"><strong>Tennis Hall</strong> </p> 
+								<p class="col-md-6 col-sm-6 col-xs-6" style="text-align:right;margin-bottom:0px"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-empty"></i></p>
+								<p class="col-md-12 col-sm-12 col-xs-12"><span style="font-size:11px;color:#9b9b9b">Mumbai Central,Mumbai</span></p>
+							</div>
+
+							<div class="col-md-12 col-sm-12 col-xs-12">
+								<p class="col-md-6 col-sm-6 col-xs-6"><i class="fa fa-user" style="color:#9b9b9b;"></i> 1500-2500 </p>
+								<p class="col-md-6 col-sm-6 col-xs-6" style="text-align:right"><i class="fa fa-rupee" style="color:#9b9b9b;"></i> 25,000/- </p>
+							</div>
+
+							<hr style="width:125px;margin:20px auto;">
+							<p style="text-align:center;margin-bottom:0px"><a href="hall_detail.php" class="btn btn-primary hvr-bounce-to-right">More Details</a></p>
+						</div>
+					</div>
 				</div>
 
-				<div class="col-sm-3 scaled">
-					<a href="#" class="gallery-item" data-lightbox="trip-detail-gallery" data-title="Lorem ipsum dolor.">
-						<img src="assets/img/trip_detail/thumb_4.jpg" alt="..." class="img-responsive scaled-img" >
-						<div class="hover-overlay">
-							<h2>HALL 4</h2>
-							<p class="view-p">VIEW DETAILS</p>
-
-							<!-- <span class="icon-search"></span> -->
+				<div class="col-md-3 col-sm-6 col-xs-12"> 
+					<div class="item-grid">
+						<div class="item-img all-halls-item-img">	
+							<img class="img img-responsive img-thumbnail" src="myimg/4.jpg" />
 						</div>
-					</a>
-				</div>
 
-				<div class="col-sm-3 scaled">
-					<a href="#" class="gallery-item" data-lightbox="trip-detail-gallery" data-title="Lorem ipsum dolor.">
-						<img src="assets/img/trip_detail/thumb_5.jpg" alt="..." class="img-responsive scaled-img" >
-						<div class="hover-overlay">
-							<h2>HALL 5</h2>
-							<p class="view-p">VIEW DETAILS</p>
+						<div class="col-md-12 col-sm-12 col-xs-12 detailed"> 
+							<div class="col-md-12 col-sm-12 col-xs-12">
+								<p class="col-md-6 col-sm-6 col-xs-6" style="margin-bottom:0px"><strong>Christ Church</strong></p> 
+								<p class="col-md-6 col-sm-6 col-xs-6" style="text-align:right;margin-bottom:0px"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-empty"></i></p>
+								<p class="col-md-12 col-sm-12 col-xs-12"><span style="font-size:11px;color:#9b9b9b">Byculla,Mumbai</span></p>
+							</div>
 
-							<!-- <span class="icon-search"></span> -->
+							<div class="col-md-12 col-sm-12 col-xs-12">
+								<p class="col-md-6 col-sm-6 col-xs-6"><i class="fa fa-user" style="color:#9b9b9b;"></i> 1800-2500 </p>
+								<p class="col-md-6 col-sm-6 col-xs-6" style="text-align:right"><i class="fa fa-rupee" style="color:#9b9b9b;"></i> 25,000/- </p>
+							</div>
+
+							<hr style="width:125px;margin:20px auto;">
+							<p style="text-align:center;margin-bottom:0px"><a href="hall_detail.php" class="btn btn-primary hvr-bounce-to-right">More Details</a></p>
 						</div>
-					</a>
+					</div>
 				</div>
-
-				<div class="col-sm-3 scaled">
-					<a href="#" class="gallery-item" data-lightbox="trip-detail-gallery" data-title="Lorem ipsum dolor.">
-						<img src="assets/img/trip_detail/thumb_6.jpg" alt="..." class="img-responsive scaled-img" >
-						<div class="hover-overlay">
-							<h2>HALL 6</h2>
-							<p class="view-p">VIEW DETAILS</p>
-
-							<!-- <span class="icon-search"></span> -->
-						</div>
-					</a>
-				</div>
-
-				<div class="col-sm-3 scaled">
-					<a href="#" class="gallery-item" data-lightbox="trip-detail-gallery" data-title="Lorem ipsum dolor.">
-						<img src="assets/img/trip_detail/thumb_1.jpg" alt="..." class="img-responsive scaled-img" >
-						<div class="hover-overlay">
-							<h2>HALL 7</h2>
-							<p class="view-p">VIEW DETAILS</p>
-
-							<!-- <span class="icon-search"></span> -->
-						</div>
-					</a>
-				</div>
-
-				<div class="col-sm-3 scaled">
-					<a href="#" class="gallery-item" data-lightbox="trip-detail-gallery" data-title="Lorem ipsum dolor.">
-						<img src="assets/img/trip_detail/thumb_2.jpg" alt="..." class="img-responsive scaled-img" >
-						<div class="hover-overlay">
-							<h2 class="view-h2">HALL 8</h2>
-							<p class="view-p">VIEW DETAILS</p>
-
-							<!-- <span class="icon-search"></span> -->
-						</div>
-					</a>
-				</div>
-				
 			</div>
-		</div>
+
 
 <!-- footer starts here -->
   <?php include_once('footer.php'); ?>

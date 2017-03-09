@@ -31,13 +31,15 @@
     </script>
 </head>
 <body>
-  <div class="pre-loader">
-    <div class="loading-img"></div>
-  </div>
+	<div class="pre-loader">
+	  	<div class="loading-img"></div>
+	</div>
 
-  <?php include_once('header.php') ?>
+  	<?php include_once('header.php') ?>
 
-
+  	<!-- slider-filter starts here -->
+  		<?php include_once('slider-filter.php'); ?>
+	<!-- slider-filter ends here -->
 
 <div class="trip-detail">
 	<div class="container">

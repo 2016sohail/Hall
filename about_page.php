@@ -24,9 +24,13 @@
 
     </script></head>
 <body>
-  <!-- header starts here -->
+  	<!-- header starts here -->
   <?php include_once('header.php'); ?>
   <!-- header ends here -->
+
+  <!-- slider-filter starts here -->
+  <?php include_once('slider_filter.php'); ?>
+<!-- slider-filter ends here -->
   
 <section class="page-img" style="background-image: url('assets/img/home_img/mountain.jpg');">
 	<div class="main-title">
