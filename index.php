@@ -39,12 +39,12 @@
 <!-- header ends here -->
 
 <section class="main-img with-overlay full-height">
-	<div class="panning" style="background-image: url('myimg/stage1.jpg');">
+	<div class="panning" style="background-image: url('myimg/9.jpg');">
 		<div class="main-image-txt center-txt">
 	<h1 class="main-header">Mold Discover</h1>
 	<hr>
 	<p class="sub-header">Wander Exotic places and without getting lost.</p>
-	<a href="#" class="btn btn-lg btn-primary hvr-bounce-to-right">Explore Now</a>
+	<a href="#" class="btn btn-lg btn-primary hvr-bounce-to-right" style="border:1px solid white">Explore Now</a>
 </div>	
 	</div>
 </section>
@@ -75,7 +75,7 @@
     </div>
   </div>
   <div class="col-sm-2">
-    <button class="btn btn-search btn-primary hvr-sweep-to-right">Search</button>
+    <button class="btn btn-search btn-primary hvr-bounce-to-right">Search</button>
   </div>
 </div>
 
@@ -92,124 +92,23 @@
 
 	<div class="col-sm-6 col-md-4">
 		<div class="item-grid">
-			<div class="item-img" style="background-image: url('assets/img/trip_detail/thumb_1.jpg');">	
-				<div class="item-overlay">
-					<a href="trip_detail.html"><span class="icon-binocular"></span></a>
-				</div>
+			<div class="item-img">	
+				<img class="img" src="myimg/4.jpg" />
 			</div>
-			<div class="item-desc">
-				<div class="item-info">
-					<span class="icon-easy"></span>
-					<h4 class="title"><a href="#">Routeburn Track</a></h4>
-				</div>
-
-				<div class="sub-title">
-					<span class="location">New Zealand</span>
-					<span class="grade">Easy</span>
-				</div>
-
-				<div class="item-detail">
-					<div class="left">
-						<div class="day"><span class="icon-sun"></span>3 Days</div>
-						<div class="night"><span class="icon-moon"></span>2 Nights</div>
+			<div class="">
+				<div class="col-md-12 col-sm-12 col-xm-12 detailed">
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<p class="col-md-6 col-sm-6 col-xs-6"><strong>ANSAR HALL</strong> <span style="font-size:11px;color:#9b9b9b">Madanpura,Mumbai</span></p> 
+						<p class="col-md-6 col-sm-6 col-xs-6" style="text-align:right"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-empty"></i></p>
 					</div>
-					<div class="right">
-						<div class="price">USD 121</div>
-						<a href="trip_detail.html" class="btn btn-primary hvr-sweep-to-right">Book Now</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>	
-	<div class="col-sm-6 col-md-4">
-		<div class="item-grid">
-			<div class="item-img" style="background-image: url('assets/img/trip_detail/thumb_2.jpg');">	
-				<div class="item-overlay">
-					<a href="trip_detail.html"><span class="icon-binocular"></span></a>
-				</div>
-			</div>
-			<div class="item-desc">
-				<div class="item-info">
-					<span class="icon-hard"></span>
-					<h4 class="title"><a href="#">Fitz Roy Trek</a></h4>
-				</div>
 
-				<div class="sub-title">
-					<span class="location">Patagonia, Argentina</span>
-					<span class="grade">Hard</span>
-				</div>
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<p class="col-md-6 col-sm-6 col-xs-6"><i class="fa fa-user" style="color:#9b9b9b;"></i> 700-1000 </p>
+						<p class="col-md-6 col-sm-6 col-xs-6" style="text-align:right"><i class="fa fa-rupee" style="color:#9b9b9b;"></i> 25,000/- </p>
+					</div>
 
-				<div class="item-detail">
-					<div class="left">
-						<div class="day"><span class="icon-sun"></span>3 Days</div>
-						<div class="night"><span class="icon-moon"></span>2 Nights</div>
-					</div>
-					<div class="right">
-						<div class="price">USD 121</div>
-						<a href="trip_detail.html" class="btn btn-primary hvr-sweep-to-right">Book Now</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>	
-	<div class="col-sm-6 col-md-4">
-		<div class="item-grid">
-			<div class="item-img" style="background-image: url('assets/img/trip_detail/thumb_3.jpg');">	
-				<div class="item-overlay">
-					<a href="trip_detail.html"><span class="icon-binocular"></span></a>
-				</div>
-			</div>
-			<div class="item-desc">
-				<div class="item-info">
-					<span class="icon-extreme"></span>
-					<h4 class="title"><a href="#">Annapurna Circuit</a></h4>
-				</div>
-
-				<div class="sub-title">
-					<span class="location">Nepal</span>
-					<span class="grade">Extreme</span>
-				</div>
-
-				<div class="item-detail">
-					<div class="left">
-						<div class="day"><span class="icon-sun"></span>3 Days</div>
-						<div class="night"><span class="icon-moon"></span>2 Nights</div>
-					</div>
-					<div class="right">
-						<div class="price">USD 121</div>
-						<a href="trip_detail.html" class="btn btn-primary hvr-sweep-to-right">Book Now</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>	
-	<div class="col-sm-6 col-md-4">
-		<div class="item-grid">
-			<div class="item-img" style="background-image: url('assets/img/trip_detail/thumb_4.jpg');">	
-				<div class="item-overlay">
-					<a href="trip_detail.html"><span class="icon-binocular"></span></a>
-				</div>
-			</div>
-			<div class="item-desc">
-				<div class="item-info">
-					<span class="icon-hard"></span>
-					<h4 class="title"><a href="#">Overland Track</a></h4>
-				</div>
-
-				<div class="sub-title">
-					<span class="location">Australia</span>
-					<span class="grade">Hard</span>
-				</div>
-
-				<div class="item-detail">
-					<div class="left">
-						<div class="day"><span class="icon-sun"></span>3 Days</div>
-						<div class="night"><span class="icon-moon"></span>2 Nights</div>
-					</div>
-					<div class="right">
-						<div class="price">USD 121</div>
-						<a href="trip_detail.html" class="btn btn-primary hvr-sweep-to-right">Book Now</a>
-					</div>
+					<hr style="width:125px;margin:20px auto;">
+					<p style="text-align:center;margin-bottom:0px"><a href="hall_detail.php" class="btn btn-primary hvr-bounce-to-right">More Details</a></p>
 				</div>
 			</div>
 		</div>
@@ -217,68 +116,52 @@
 
 	<div class="col-sm-6 col-md-4">
 		<div class="item-grid">
-			<div class="item-img" style="background-image: url('assets/img/trip_detail/thumb_5.jpg');">	
-				<div class="item-overlay">
-					<a href="trip_detail.html"><span class="icon-binocular"></span></a>
-				</div>
+			<div class="item-img">	
+				<img class="img" src="myimg/5.jpg" />
 			</div>
-			<div class="item-desc">
-				<div class="item-info">
-					<span class="icon-medium"></span>
-					<h4 class="title"><a href="#">The Haute Route</a></h4>
-				</div>
-
-				<div class="sub-title">
-					<span class="location">France-Switzerland</span>
-					<span class="grade">Medium</span>
-				</div>
-
-				<div class="item-detail">
-					<div class="left">
-						<div class="day"><span class="icon-sun"></span>3 Days</div>
-						<div class="night"><span class="icon-moon"></span>2 Nights</div>
+			<div class="">
+				<div class="col-md-12 col-sm-12 col-xm-12 detailed">
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<p class="col-md-6 col-sm-6 col-xs-6"><strong>ANSAR HALL</strong> <span style="font-size:11px;color:#9b9b9b">Madanpura,Mumbai</span></p> 
+						<p class="col-md-6 col-sm-6 col-xs-6" style="text-align:right"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-empty"></i></p>
 					</div>
-					<div class="right">
-						<div class="price">USD 121</div>
-						<a href="trip_detail.html" class="btn btn-primary hvr-sweep-to-right">Book Now</a>
+
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<p class="col-md-6 col-sm-6 col-xs-6"><i class="fa fa-user" style="color:#9b9b9b;"></i> 700-1000 </p>
+						<p class="col-md-6 col-sm-6 col-xs-6" style="text-align:right"><i class="fa fa-rupee" style="color:#9b9b9b;"></i> 25,000/- </p>
 					</div>
+
+					<hr style="width:125px;margin:20px auto;">
+					<p style="text-align:center;margin-bottom:0px"><a href="hall_detail.php" class="btn btn-primary hvr-bounce-to-right">More Details</a></p>
 				</div>
 			</div>
 		</div>
-	</div>	
+	</div>
 
 	<div class="col-sm-6 col-md-4">
 		<div class="item-grid">
-			<div class="item-img" style="background-image: url('assets/img/trip_detail/thumb_6.jpg');">	
-				<div class="item-overlay">
-					<a href="trip_detail.html"><span class="icon-binocular"></span></a>
-				</div>
+			<div class="item-img">	
+				<img class="img" src="myimg/7.jpg" />
 			</div>
-			<div class="item-desc">
-				<div class="item-info">
-					<span class="icon-hard"></span>
-					<h4 class="title"><a href="#">Torres del Paine Circuit</a></h4>
-				</div>
-
-				<div class="sub-title">
-					<span class="location">Chile</span>
-					<span class="grade">Hard</span>
-				</div>
-
-				<div class="item-detail">
-					<div class="left">
-						<div class="day"><span class="icon-sun"></span>3 Days</div>
-						<div class="night"><span class="icon-moon"></span>2 Nights</div>
+			<div class="">
+				<div class="col-md-12 col-sm-12 col-xm-12 detailed">
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<p class="col-md-6 col-sm-6 col-xs-6"><strong>ANSAR HALL</strong> <span style="font-size:11px;color:#9b9b9b">Madanpura,Mumbai</span></p> 
+						<p class="col-md-6 col-sm-6 col-xs-6" style="text-align:right"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-empty"></i></p>
 					</div>
-					<div class="right">
-						<div class="price">USD 121</div>
-						<a href="trip_detail.html" class="btn btn-primary hvr-sweep-to-right">Book Now</a>
+
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<p class="col-md-6 col-sm-6 col-xs-6"><i class="fa fa-user" style="color:#9b9b9b;"></i> 700-1000 </p>
+						<p class="col-md-6 col-sm-6 col-xs-6" style="text-align:right"><i class="fa fa-rupee" style="color:#9b9b9b;"></i> 25,000/- </p>
 					</div>
+
+					<hr style="width:125px;margin:20px auto;">
+					<p style="text-align:center;margin-bottom:0px"><a href="hall_detail.php" class="btn btn-primary hvr-bounce-to-right">More Details</a></p>
 				</div>
 			</div>
 		</div>
-	</div>	
-
+	</div>
+	
 </div>	
 
 	</div>

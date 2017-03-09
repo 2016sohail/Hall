@@ -22,37 +22,30 @@
     </div>
 
     <div class="navbar-collapse collapse" id="main-navbar">
-       <ul class="nav navbar-nav">
-  <li class="dropdown  megamenu">
-    <a href="index.php" class="dropdown-toggle">Home</a>
-</li>
-<li class="dropdown submenu">
-  <a href="#" class="dropdown-toggle">About Us</a>
-  <li>
-    <a href="#">Pages</a>
-</li>
-<li>
-  <a href="#">Features</a>
-</li>
-<li>
-  <a href="#">Blog</a>
-</li>
-<li>
-  <a href="#">Elements</a>
-</li>
+    <ul class="nav navbar-nav">
+        <li class="dropdown  megamenu">
+            <a href="index.php" class="dropdown-toggle">Home</a>
+        </li>
+        <li class="dropdown submenu">
+            <a href="#" class="dropdown-toggle">About Us</a>
+        </li>
 
-<li>
-  <a data-toggle="modal" data-target="#myModal"><span class="icon-user"></span>Sign Up</a>
-</li>
+        <li class="dropdown submenu">
+            <a href="#" class="dropdown-toggle">Halls</a>
+        </li>
 
-<li>
-  <a data-toggle="modal" data-target="#myModalLogin"><span class="icon-user"></span>Login</a>
-</li>
+        <li>
+            <a data-toggle="modal" data-target="#myModal"><span class="icon-user"></span>Sign Up</a>
+        </li>
 
-<li class="last-menu-item">
-  <a href="#" title="Search your hall"><i id="" class="fa fa-search slide-icon" style="color:white !important;"></i></a>
+        <li>
+            <a data-toggle="modal" data-target="#myModalLogin"><span class="icon-user"></span>Login</a>
+        </li>
 
-</ul> 
+        <li class="last-menu-item">
+            <a href="#" title="Search your hall"><i id="" class="fa fa-search slide-icon" style="color:white !important;"></i></a>
+        </li>
+    </ul> 
 
   <!-- modal pop-up -->
       <div style="" class="modal fade" id="myModal" role="dialog">
@@ -235,10 +228,6 @@
         </div>
       </div>
     </div>
-
-          
-
-
     </div>
   </div>
 
