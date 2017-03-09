@@ -1,5 +1,11 @@
 
 $(document).ready(function(){
+	$('.calendar-slide').click(function(){
+		console.log('click');
+		$('.mycalendar').slideToggle();
+		// $('#my-calendar').show();
+	});
+	$("#my-calendar").zabuto_calendar({language: "en"});
 	// $('.mymain-img').css({'width':'100%','transition-timing-function':'cubic-bezier(0, 1.23, 1, 1)'});
 	$('.hall_img').click(function(){
 		var imgid = $(this).attr('id');

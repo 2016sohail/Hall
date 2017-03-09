@@ -137,7 +137,14 @@
 					</div>
 				</div>
 
-				<div class="form-group" style="padding:0px">
+				<div class="form-group col-md-6 col-xs-12" style="padding:0px">
+					
+					<div class="input-group">
+						<div class="input-group-addon"><i class="fa fa-hashtag"></i></div>
+						<input type="tel" name="pincode" class="form-control" placeholder="Enter Pincode"/>
+					</div>
+				</div>
+				<div class="form-group col-md-6 col-xs-12" style="padding:0px">
 					
 					<div class="input-group">
 						<div class="input-group-addon"><i class="fa fa-hashtag"></i></div>

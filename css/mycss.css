@@ -1,4 +1,29 @@
-
+.detail .btn.btn-lg{
+	width: 90%;
+	margin: 0px 10px;
+	font-size: 13px;
+	line-height: 13px;
+	height: auto;
+	padding: 10px;
+}
+.mycalendar{
+	border: 1px solid #d1d1d1;
+}
+ul.trip-overview [class^='icon-'], ul.trip-overview .fa, ul.trip-overview .glyphicon{
+	color: #3a203e;
+}
+#footer .copy
+{
+	margin-top: 10px;
+}
+.tab-wrap .nav-tabs li.active a
+{
+	background-color: #3a203e;
+}
+.tab-wrap .nav-tabs 
+{
+	border-bottom: 5px solid rgba(100, 67, 105, 0.84);
+}
 .view-p
 {
 	text-align:center;
@@ -13,13 +38,13 @@
 }
 
 .scaled:hover .scaled-img{
-	    transform:scale(1.1) !important;
-	    transition:all 0.8s ease;
+	transform:scale(1.1) !important;
+	transition:all 0.8s ease;
 }
 
 .hover-overlay:hover{
-	    background: rgba(58, 32, 62, 0.86) !important;
-	    opacity: 0.5;
+	background: rgba(58, 32, 62, 0.86) !important;
+	opacity: 0.5;
 }
 #footer .social-icon-list a
 {
@@ -55,13 +80,13 @@ h3:after
 .my-active
 {
 	color:white !important;
-    border-bottom: 5px solid white !important;
+	border-bottom: 5px solid white !important;
 }
 
 .nav-menu .nav>li>a:hover {
-    color: white !important;
-    border-bottom: 5px solid white !important;
-    background: 0 0;
+	color: white !important;
+	border-bottom: 5px solid white !important;
+	background: 0 0;
 }
 
 .my-border
@@ -94,7 +119,7 @@ footer
 
 .bg-color1
 {
-   background: rgba(58, 32, 62, 0.76) !important;
+	background: rgba(58, 32, 62, 0.76) !important;
 }
 
 .banner.base .line-title
@@ -109,7 +134,7 @@ footer
 .banner,.base
 {
 	background: #fff !important;
-    color: #3a203e !important;
+	color: #3a203e !important;
 }
 
 .search-slide
@@ -138,7 +163,7 @@ footer
 
 .color
 {
-	color: #3a203e;
+	color: #3a203e !important;
 }
 .btn-primary
 {
@@ -175,7 +200,7 @@ footer
 .modal-body
 {
 	background-color: #f1f2f8;
-    overflow: auto;
+	overflow: auto;
 }
 
 .modal-backdrop 
@@ -186,10 +211,10 @@ footer
 .modal-content
 {
 	padding-bottom: 0px;
-    border-radius: 10px;
-    padding: 0px;
-    margin-bottom: 20px;
-    background-color: transparent;
+	border-radius: 10px;
+	padding: 0px;
+	margin-bottom: 20px;
+	background-color: transparent;
 }
 
 .form-group i
@@ -246,6 +271,9 @@ footer
 	{
 		padding-right:0px;
 	}
+	.centerarea{
+		margin: auto;
+	}
 }
 
 @media only screen and (min-width:769px) and (max-width:960px){
@@ -298,8 +326,8 @@ footer
 .footer-form-btn
 {
 	background-color: #946e91 !important;
-    width: 203px;
-    border-top: 1px solid #3a203e;
+	width: 203px;
+	border-top: 1px solid #3a203e;
 }
 @media only screen and (max-width:500px){
 	.img-height-main img
